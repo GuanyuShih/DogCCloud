@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SetupViewController.h
 //  DogCloud
 //
 //  Created by Allen on 2016/1/11.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SetupViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIButton *button;
 
 @end
-
