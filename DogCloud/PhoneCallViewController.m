@@ -11,43 +11,36 @@
 
 @interface PhoneCallViewController ()
 
+@property (weak, nonatomic) IBOutlet UIButton *Button1;
+@property (strong, nonatomic) IBOutlet UIButton *Buuton2;
+
 @end
 
 @implementation PhoneCallViewController
 
-@synthesize Button1,Buuton2;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-
+    self.Button1.layer.cornerRadius = self.Button1.bounds.size.width/2.0;
+    self.Button2.layer.cornerRadius = self.Button2.bounds.size.width/2.0;
     
+    self.Button1.layer.borderWidth = 1.0;
+    self.Button2.layer.borderWidth = 1.0;
+    
+    self.Button1.layer.borderColor = self.Button1.titleLabel.textColor.CGColor;
+    self.Button2.layer.borderWidth = 1.0f;
+    
+    self.Button1.titleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:35];
+    self.Button2.titleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:35];
+    self.Button2.layer.borderColor = [UIColor whiteColor].CGColor;
+    self.Button2.layer.borderWidth = 1.0f;
 
-
-
-
- 
 
 
 }
-#pragma mark - Appearance
 
-- (void)configureButtonsAppearance {
-
-self.Button1.layer.cornerRadius = self.Button1.bounds.size.width/2.0;
-self.Button2.layer.cornerRadius = self.Button2.bounds.size.width/2.0;
-
-self.Button1.layer.borderWidth = 1.0;
-self.Button2.layer.borderWidth = 1.0;
-
-self.Button1.layer.borderColor = self.Button1.titleLabel.textColor.CGColor;
-self.Button2.layer.borderColor = self.Button1.titleLabel.textColor.CGColor;
-
-self.Button1.titleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:35];
-self.Button2.titleLabel.font = [UIFont fontWithName:@"HelveticaNeue-Light" size:35];
-
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

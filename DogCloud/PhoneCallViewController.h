@@ -17,8 +17,7 @@
     NSString *storage;
 }
 
-@property (weak, nonatomic) IBOutlet UIButton *Button1;
-@property (strong, nonatomic) IBOutlet UIButton *Buuton2;
+
 
  
 - (IBAction) button1;
