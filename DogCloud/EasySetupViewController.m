@@ -10,6 +10,7 @@
 #import "RNBlurModalView.h"
 
 @interface EasySetupViewController ()
+@property (strong, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
@@ -18,6 +19,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+ 
+/*
+    UIImageView *imgView = [[UIImageView alloc] initWithFrame:CGRectMake(5, 2, 26, 26)];
+    imgView.image = [UIImage imageNamed:@"wifi.png"];
+    
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 32, 32)];
+    [button addSubview:imgView];
+    [_textField setRightViewMode:UITextFieldViewModeAlways];
+    [_textField setRightView:button];
+*/
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(0, 0, 26, 26);
+    [button setImage:[UIImage imageNamed:@"wifi.png"] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(buttonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    
+    self.textField.rightView = button;
+    self.textField.rightViewMode = UITextFieldViewModeUnlessEditing;
+ 
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,6 +54,10 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (void)buttonPressed:(UIButton *)button {
+    NSLog(@"Button Pressed");
+}
 
 - (IBAction)done:(id)sender {
     

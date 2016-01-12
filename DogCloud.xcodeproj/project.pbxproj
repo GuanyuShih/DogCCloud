@@ -30,7 +30,6 @@
 		9F8576B51C4351F1009B5E3C /* EasySetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8576B41C4351F1009B5E3C /* EasySetupViewController.m */; };
 		9F8576B81C435284009B5E3C /* RNBlurModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8576B71C435284009B5E3C /* RNBlurModalView.m */; };
 		9F8576BB1C435A35009B5E3C /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8576BA1C435A35009B5E3C /* SetupViewController.m */; };
-		9F8576BE1C43789C009B5E3C /* PhoneCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8576BD1C43789C009B5E3C /* PhoneCallViewController.m */; };
 		9F8576D61C4387B7009B5E3C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8576D51C4387B7009B5E3C /* QuartzCore.framework */; };
 		9F8576E11C439117009B5E3C /* EIGHT_TUV.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8576D71C439117009B5E3C /* EIGHT_TUV.png */; };
 		9F8576E21C439117009B5E3C /* FIVE_JKL.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8576D81C439117009B5E3C /* FIVE_JKL.png */; };
@@ -45,6 +44,9 @@
 		9F8576EC1C43914A009B5E3C /* Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8576EB1C43914A009B5E3C /* Circle.png */; };
 		9F8576F31C43A84E009B5E3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8576F21C43A84E009B5E3C /* CoreGraphics.framework */; };
 		9F8576F51C43A869009B5E3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8576F41C43A869009B5E3C /* Foundation.framework */; };
+		9F8577001C44932F009B5E3C /* wi-fi-clipart-wifi-grey-md.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8576FF1C44932F009B5E3C /* wi-fi-clipart-wifi-grey-md.png */; };
+		9F8577021C4493B1009B5E3C /* wifi.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8577011C4493B1009B5E3C /* wifi.png */; };
+		9F8577101C44EE7F009B5E3C /* KeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F85770F1C44EE7F009B5E3C /* KeyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,8 +101,6 @@
 		9F8576B71C435284009B5E3C /* RNBlurModalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBlurModalView.m; sourceTree = "<group>"; };
 		9F8576B91C435A35009B5E3C /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
 		9F8576BA1C435A35009B5E3C /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
-		9F8576BC1C43789C009B5E3C /* PhoneCallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneCallViewController.h; sourceTree = "<group>"; };
-		9F8576BD1C43789C009B5E3C /* PhoneCallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneCallViewController.m; sourceTree = "<group>"; };
 		9F8576D51C4387B7009B5E3C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		9F8576D71C439117009B5E3C /* EIGHT_TUV.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EIGHT_TUV.png; sourceTree = "<group>"; };
 		9F8576D81C439117009B5E3C /* FIVE_JKL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FIVE_JKL.png; sourceTree = "<group>"; };
@@ -115,6 +115,10 @@
 		9F8576EB1C43914A009B5E3C /* Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle.png; sourceTree = "<group>"; };
 		9F8576F21C43A84E009B5E3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9F8576F41C43A869009B5E3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F8576FF1C44932F009B5E3C /* wi-fi-clipart-wifi-grey-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wi-fi-clipart-wifi-grey-md.png"; sourceTree = "<group>"; };
+		9F8577011C4493B1009B5E3C /* wifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wifi.png; sourceTree = "<group>"; };
+		9F85770E1C44EE7F009B5E3C /* KeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyViewController.h; path = ../KeyViewController.h; sourceTree = "<group>"; };
+		9F85770F1C44EE7F009B5E3C /* KeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyViewController.m; path = ../KeyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,8 +185,8 @@
 				9F8576B41C4351F1009B5E3C /* EasySetupViewController.m */,
 				9F8576B91C435A35009B5E3C /* SetupViewController.h */,
 				9F8576BA1C435A35009B5E3C /* SetupViewController.m */,
-				9F8576BC1C43789C009B5E3C /* PhoneCallViewController.h */,
-				9F8576BD1C43789C009B5E3C /* PhoneCallViewController.m */,
+				9F85770E1C44EE7F009B5E3C /* KeyViewController.h */,
+				9F85770F1C44EE7F009B5E3C /* KeyViewController.m */,
 				9F85766F1C434A0C009B5E3C /* Main.storyboard */,
 				9F8576721C434A0C009B5E3C /* Assets.xcassets */,
 				9F8576741C434A0C009B5E3C /* LaunchScreen.storyboard */,
@@ -232,6 +236,8 @@
 		9F85769A1C434A6D009B5E3C /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				9F8577011C4493B1009B5E3C /* wifi.png */,
+				9F8576FF1C44932F009B5E3C /* wi-fi-clipart-wifi-grey-md.png */,
 				9F85769B1C434AA1009B5E3C /* mymain_top.png */,
 				9F85769C1C434AA1009B5E3C /* mytab_down_main_s.png */,
 				9F85769D1C434AA1009B5E3C /* mytab_down_main.png */,
@@ -363,9 +369,11 @@
 			files = (
 				9F8576AC1C434AA1009B5E3C /* mytab_down_set.png in Resources */,
 				9F8576AA1C434AA1009B5E3C /* mytab_down_safe.png in Resources */,
+				9F8577021C4493B1009B5E3C /* wifi.png in Resources */,
 				9F8576E91C439117009B5E3C /* TWO_ABC.png in Resources */,
 				9F8576EA1C439117009B5E3C /* ZERO.png in Resources */,
 				9F8576A71C434AA1009B5E3C /* mytab_down_main_s.png in Resources */,
+				9F8577001C44932F009B5E3C /* wi-fi-clipart-wifi-grey-md.png in Resources */,
 				9F8576E61C439117009B5E3C /* SEVEN_PQRS.png in Resources */,
 				9F8576EC1C43914A009B5E3C /* Circle.png in Resources */,
 				9F8576761C434A0C009B5E3C /* LaunchScreen.storyboard in Resources */,
@@ -416,7 +424,7 @@
 				9F8576B51C4351F1009B5E3C /* EasySetupViewController.m in Sources */,
 				9F8576BB1C435A35009B5E3C /* SetupViewController.m in Sources */,
 				9F8576681C434A0B009B5E3C /* main.m in Sources */,
-				9F8576BE1C43789C009B5E3C /* PhoneCallViewController.m in Sources */,
+				9F8577101C44EE7F009B5E3C /* KeyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
