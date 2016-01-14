@@ -47,6 +47,14 @@
 		9F8577001C44932F009B5E3C /* wi-fi-clipart-wifi-grey-md.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8576FF1C44932F009B5E3C /* wi-fi-clipart-wifi-grey-md.png */; };
 		9F8577021C4493B1009B5E3C /* wifi.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8577011C4493B1009B5E3C /* wifi.png */; };
 		9F8577101C44EE7F009B5E3C /* KeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F85770F1C44EE7F009B5E3C /* KeyViewController.m */; };
+		9F89EDD01C4643BC006012C4 /* libTCCloudPlayerSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F89EDCF1C4643BC006012C4 /* libTCCloudPlayerSDK.a */; };
+		9F89EDD61C464427006012C4 /* SimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F89EDD51C464427006012C4 /* SimpleViewController.m */; };
+		9F89EDD91C464563006012C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F89EDD81C464563006012C4 /* ViewController.m */; };
+		9F89EDDC1C46517B006012C4 /* DailyBuild-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F89EDDB1C46517B006012C4 /* DailyBuild-Info.plist */; };
+		9F89EDDF1C473D0F006012C4 /* full.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F89EDDD1C473D0F006012C4 /* full.jpg */; };
+		9F89EDE01C473D0F006012C4 /* notfull.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F89EDDE1C473D0F006012C4 /* notfull.jpg */; };
+		9FE642D41C45E27C005F51AA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE642D31C45E27C005F51AA /* CoreMedia.framework */; };
+		9FE642D61C45E28B005F51AA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE642D51C45E28B005F51AA /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +127,25 @@
 		9F8577011C4493B1009B5E3C /* wifi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wifi.png; sourceTree = "<group>"; };
 		9F85770E1C44EE7F009B5E3C /* KeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyViewController.h; path = ../KeyViewController.h; sourceTree = "<group>"; };
 		9F85770F1C44EE7F009B5E3C /* KeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyViewController.m; path = ../KeyViewController.m; sourceTree = "<group>"; };
+		9F89EDC71C463D22006012C4 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9F89EDC81C464346006012C4 /* TCCloudPlayerRorateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCCloudPlayerRorateViewController.h; sourceTree = "<group>"; };
+		9F89EDC91C464346006012C4 /* TCCloudPlayerSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCCloudPlayerSDK.h; sourceTree = "<group>"; };
+		9F89EDCA1C464346006012C4 /* TCCloudPlayerShowAbleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCCloudPlayerShowAbleView.h; sourceTree = "<group>"; };
+		9F89EDCB1C464346006012C4 /* TCCloudPlayerVideoUrlInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCCloudPlayerVideoUrlInfo.h; sourceTree = "<group>"; };
+		9F89EDCC1C464346006012C4 /* TCCloudPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCCloudPlayerView.h; sourceTree = "<group>"; };
+		9F89EDCD1C464347006012C4 /* TCCloudPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCCloudPlayerViewController.h; sourceTree = "<group>"; };
+		9F89EDCE1C464347006012C4 /* TCReportEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCReportEngine.h; sourceTree = "<group>"; };
+		9F89EDCF1C4643BC006012C4 /* libTCCloudPlayerSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTCCloudPlayerSDK.a; sourceTree = "<group>"; };
+		9F89EDD41C464427006012C4 /* SimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleViewController.h; sourceTree = "<group>"; };
+		9F89EDD51C464427006012C4 /* SimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleViewController.m; sourceTree = "<group>"; };
+		9F89EDD71C464563006012C4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9F89EDD81C464563006012C4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F89EDDA1C4645EF006012C4 /* TCCloudPlayerSDKTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TCCloudPlayerSDKTest-Prefix.pch"; sourceTree = "<group>"; };
+		9F89EDDB1C46517B006012C4 /* DailyBuild-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DailyBuild-Info.plist"; sourceTree = "<group>"; };
+		9F89EDDD1C473D0F006012C4 /* full.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = full.jpg; sourceTree = "<group>"; };
+		9F89EDDE1C473D0F006012C4 /* notfull.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = notfull.jpg; sourceTree = "<group>"; };
+		9FE642D31C45E27C005F51AA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9FE642D51C45E28B005F51AA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +153,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FE642D61C45E28B005F51AA /* AVFoundation.framework in Frameworks */,
+				9FE642D41C45E27C005F51AA /* CoreMedia.framework in Frameworks */,
 				9F8576F51C43A869009B5E3C /* Foundation.framework in Frameworks */,
+				9F89EDD01C4643BC006012C4 /* libTCCloudPlayerSDK.a in Frameworks */,
 				9F8576F31C43A84E009B5E3C /* CoreGraphics.framework in Frameworks */,
 				9F8576D61C4387B7009B5E3C /* QuartzCore.framework in Frameworks */,
 				9F8576B21C434AB9009B5E3C /* UIKit.framework in Frameworks */,
@@ -153,6 +183,15 @@
 		9F85765A1C434A0B009B5E3C = {
 			isa = PBXGroup;
 			children = (
+				9F89EDCF1C4643BC006012C4 /* libTCCloudPlayerSDK.a */,
+				9F89EDC71C463D22006012C4 /* MBProgressHUD.h */,
+				9F89EDC81C464346006012C4 /* TCCloudPlayerRorateViewController.h */,
+				9F89EDC91C464346006012C4 /* TCCloudPlayerSDK.h */,
+				9F89EDCA1C464346006012C4 /* TCCloudPlayerShowAbleView.h */,
+				9F89EDCB1C464346006012C4 /* TCCloudPlayerVideoUrlInfo.h */,
+				9F89EDCC1C464346006012C4 /* TCCloudPlayerView.h */,
+				9F89EDCD1C464347006012C4 /* TCCloudPlayerViewController.h */,
+				9F89EDCE1C464347006012C4 /* TCReportEngine.h */,
 				9F85769A1C434A6D009B5E3C /* Image */,
 				9F8576991C434A3E009B5E3C /* Framework */,
 				9F8576651C434A0B009B5E3C /* DogCloud */,
@@ -187,10 +226,15 @@
 				9F8576BA1C435A35009B5E3C /* SetupViewController.m */,
 				9F85770E1C44EE7F009B5E3C /* KeyViewController.h */,
 				9F85770F1C44EE7F009B5E3C /* KeyViewController.m */,
+				9F89EDD41C464427006012C4 /* SimpleViewController.h */,
+				9F89EDD51C464427006012C4 /* SimpleViewController.m */,
+				9F89EDD71C464563006012C4 /* ViewController.h */,
+				9F89EDD81C464563006012C4 /* ViewController.m */,
 				9F85766F1C434A0C009B5E3C /* Main.storyboard */,
+				9F89EDDD1C473D0F006012C4 /* full.jpg */,
+				9F89EDDE1C473D0F006012C4 /* notfull.jpg */,
 				9F8576721C434A0C009B5E3C /* Assets.xcassets */,
 				9F8576741C434A0C009B5E3C /* LaunchScreen.storyboard */,
-				9F8576771C434A0C009B5E3C /* Info.plist */,
 				9F8576661C434A0B009B5E3C /* Supporting Files */,
 			);
 			path = DogCloud;
@@ -199,6 +243,9 @@
 		9F8576661C434A0B009B5E3C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9F89EDDB1C46517B006012C4 /* DailyBuild-Info.plist */,
+				9F8576771C434A0C009B5E3C /* Info.plist */,
+				9F89EDDA1C4645EF006012C4 /* TCCloudPlayerSDKTest-Prefix.pch */,
 				9F8576671C434A0B009B5E3C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -225,6 +272,8 @@
 		9F8576991C434A3E009B5E3C /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				9FE642D51C45E28B005F51AA /* AVFoundation.framework */,
+				9FE642D31C45E27C005F51AA /* CoreMedia.framework */,
 				9F8576F41C43A869009B5E3C /* Foundation.framework */,
 				9F8576F21C43A84E009B5E3C /* CoreGraphics.framework */,
 				9F8576D51C4387B7009B5E3C /* QuartzCore.framework */,
@@ -370,6 +419,7 @@
 				9F8576AC1C434AA1009B5E3C /* mytab_down_set.png in Resources */,
 				9F8576AA1C434AA1009B5E3C /* mytab_down_safe.png in Resources */,
 				9F8577021C4493B1009B5E3C /* wifi.png in Resources */,
+				9F89EDDC1C46517B006012C4 /* DailyBuild-Info.plist in Resources */,
 				9F8576E91C439117009B5E3C /* TWO_ABC.png in Resources */,
 				9F8576EA1C439117009B5E3C /* ZERO.png in Resources */,
 				9F8576A71C434AA1009B5E3C /* mytab_down_main_s.png in Resources */,
@@ -384,11 +434,13 @@
 				9F8576E31C439117009B5E3C /* FOUR_GHI.png in Resources */,
 				9F8576B01C434AA1009B5E3C /* xicp_main_set.png in Resources */,
 				9F8576A81C434AA1009B5E3C /* mytab_down_main.png in Resources */,
+				9F89EDDF1C473D0F006012C4 /* full.jpg in Resources */,
 				9F8576E21C439117009B5E3C /* FIVE_JKL.png in Resources */,
 				9F8576711C434A0C009B5E3C /* Main.storyboard in Resources */,
 				9F8576E81C439117009B5E3C /* THREE_DEF.png in Resources */,
 				9F8576AE1C434AA1009B5E3C /* mytab_down_video.png in Resources */,
 				9F8576E71C439117009B5E3C /* SIX_MNO.png in Resources */,
+				9F89EDE01C473D0F006012C4 /* notfull.jpg in Resources */,
 				9F8576AB1C434AA1009B5E3C /* mytab_down_set_s.png in Resources */,
 				9F8576AF1C434AA1009B5E3C /* xicp_main_safe.png in Resources */,
 				9F8576E11C439117009B5E3C /* EIGHT_TUV.png in Resources */,
@@ -418,8 +470,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F89EDD91C464563006012C4 /* ViewController.m in Sources */,
 				9F85766E1C434A0C009B5E3C /* rootViewController.m in Sources */,
 				9F85766B1C434A0C009B5E3C /* AppDelegate.m in Sources */,
+				9F89EDD61C464427006012C4 /* SimpleViewController.m in Sources */,
 				9F8576B81C435284009B5E3C /* RNBlurModalView.m in Sources */,
 				9F8576B51C4351F1009B5E3C /* EasySetupViewController.m in Sources */,
 				9F8576BB1C435A35009B5E3C /* SetupViewController.m in Sources */,
@@ -555,6 +609,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -565,10 +620,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = DogCloud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.DogCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SRCROOT)\"";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -576,10 +641,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = YES;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = DogCloud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = Test.DogCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(inherited) \"$(SRCROOT)\"";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -650,6 +725,7 @@
 				9F8576921C434A0C009B5E3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F8576931C434A0C009B5E3C /* Build configuration list for PBXNativeTarget "DogCloudTests" */ = {
 			isa = XCConfigurationList;
@@ -658,6 +734,7 @@
 				9F8576951C434A0C009B5E3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F8576961C434A0C009B5E3C /* Build configuration list for PBXNativeTarget "DogCloudUITests" */ = {
 			isa = XCConfigurationList;
@@ -666,6 +743,7 @@
 				9F8576981C434A0C009B5E3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
