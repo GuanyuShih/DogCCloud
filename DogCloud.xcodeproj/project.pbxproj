@@ -50,9 +50,9 @@
 		9F89EDD01C4643BC006012C4 /* libTCCloudPlayerSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F89EDCF1C4643BC006012C4 /* libTCCloudPlayerSDK.a */; };
 		9F89EDD61C464427006012C4 /* SimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F89EDD51C464427006012C4 /* SimpleViewController.m */; };
 		9F89EDD91C464563006012C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F89EDD81C464563006012C4 /* ViewController.m */; };
-		9F89EDDC1C46517B006012C4 /* DailyBuild-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F89EDDB1C46517B006012C4 /* DailyBuild-Info.plist */; };
 		9F89EDDF1C473D0F006012C4 /* full.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F89EDDD1C473D0F006012C4 /* full.jpg */; };
 		9F89EDE01C473D0F006012C4 /* notfull.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F89EDDE1C473D0F006012C4 /* notfull.jpg */; };
+		9F89EDE61C48CE2B006012C4 /* VodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F89EDE51C48CE2B006012C4 /* VodTableViewController.m */; };
 		9FE642D41C45E27C005F51AA /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE642D31C45E27C005F51AA /* CoreMedia.framework */; };
 		9FE642D61C45E28B005F51AA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE642D51C45E28B005F51AA /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
@@ -140,10 +140,10 @@
 		9F89EDD51C464427006012C4 /* SimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleViewController.m; sourceTree = "<group>"; };
 		9F89EDD71C464563006012C4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9F89EDD81C464563006012C4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9F89EDDA1C4645EF006012C4 /* TCCloudPlayerSDKTest-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TCCloudPlayerSDKTest-Prefix.pch"; sourceTree = "<group>"; };
-		9F89EDDB1C46517B006012C4 /* DailyBuild-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DailyBuild-Info.plist"; sourceTree = "<group>"; };
 		9F89EDDD1C473D0F006012C4 /* full.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = full.jpg; sourceTree = "<group>"; };
 		9F89EDDE1C473D0F006012C4 /* notfull.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = notfull.jpg; sourceTree = "<group>"; };
+		9F89EDE41C48CE2B006012C4 /* VodTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VodTableViewController.h; sourceTree = "<group>"; };
+		9F89EDE51C48CE2B006012C4 /* VodTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VodTableViewController.m; sourceTree = "<group>"; };
 		9FE642D31C45E27C005F51AA /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		9FE642D51C45E28B005F51AA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -226,6 +226,8 @@
 				9F8576BA1C435A35009B5E3C /* SetupViewController.m */,
 				9F85770E1C44EE7F009B5E3C /* KeyViewController.h */,
 				9F85770F1C44EE7F009B5E3C /* KeyViewController.m */,
+				9F89EDE41C48CE2B006012C4 /* VodTableViewController.h */,
+				9F89EDE51C48CE2B006012C4 /* VodTableViewController.m */,
 				9F89EDD41C464427006012C4 /* SimpleViewController.h */,
 				9F89EDD51C464427006012C4 /* SimpleViewController.m */,
 				9F89EDD71C464563006012C4 /* ViewController.h */,
@@ -243,9 +245,7 @@
 		9F8576661C434A0B009B5E3C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9F89EDDB1C46517B006012C4 /* DailyBuild-Info.plist */,
 				9F8576771C434A0C009B5E3C /* Info.plist */,
-				9F89EDDA1C4645EF006012C4 /* TCCloudPlayerSDKTest-Prefix.pch */,
 				9F8576671C434A0B009B5E3C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -419,7 +419,6 @@
 				9F8576AC1C434AA1009B5E3C /* mytab_down_set.png in Resources */,
 				9F8576AA1C434AA1009B5E3C /* mytab_down_safe.png in Resources */,
 				9F8577021C4493B1009B5E3C /* wifi.png in Resources */,
-				9F89EDDC1C46517B006012C4 /* DailyBuild-Info.plist in Resources */,
 				9F8576E91C439117009B5E3C /* TWO_ABC.png in Resources */,
 				9F8576EA1C439117009B5E3C /* ZERO.png in Resources */,
 				9F8576A71C434AA1009B5E3C /* mytab_down_main_s.png in Resources */,
@@ -471,6 +470,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F89EDD91C464563006012C4 /* ViewController.m in Sources */,
+				9F89EDE61C48CE2B006012C4 /* VodTableViewController.m in Sources */,
 				9F85766E1C434A0C009B5E3C /* rootViewController.m in Sources */,
 				9F85766B1C434A0C009B5E3C /* AppDelegate.m in Sources */,
 				9F89EDD61C464427006012C4 /* SimpleViewController.m in Sources */,

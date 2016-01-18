@@ -1326,7 +1326,7 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cQf-Tk-rXI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3221" y="2568"/>
+            <point key="canvasLocation" x="2651" y="2602"/>
         </scene>
         <!--Simple View Controller-->
         <scene sceneID="FAu-mi-iNt">
@@ -1368,18 +1368,18 @@ Cg
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NC4-6x-xEU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4061" y="2968"/>
+            <point key="canvasLocation" x="3641" y="2827"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dej-hu-vnZ">
             <objects>
                 <viewController id="wdt-at-pRs" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aV0-8p-K4U">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" id="cqd-R9-Zv8">
-                                <rect key="frame" x="0.0" y="50" width="320" height="128"/>
+                                <rect key="frame" x="0.0" y="-38" width="320" height="128"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="vN6-i0-v6p" kind="embed" id="gbf-Uv-7dv"/>
@@ -1388,15 +1388,16 @@ Cg
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1g9-fo-5pG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3221" y="3166"/>
+            <point key="canvasLocation" x="3221" y="2586"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Vod Table View Controller-->
         <scene sceneID="OmP-UZ-Bjz">
             <objects>
-                <tableViewController id="vN6-i0-v6p" sceneMemberID="viewController">
+                <tableViewController id="vN6-i0-v6p" customClass="VodTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="uJJ-D4-Sb2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="128"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1420,9 +1421,6 @@ Cg
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="PN9-1P-NW8" kind="push" id="jht-pm-RB1"/>
-                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="0TU-Wz-7PN" style="IBUITableViewCellStyleDefault" id="nCG-gO-fSw">
                                         <rect key="frame" x="0.0" y="44" width="320" height="44"/>
@@ -1469,7 +1467,7 @@ Cg
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tVU-2w-56B" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3655" y="2968"/>
+            <point key="canvasLocation" x="3221" y="3003"/>
         </scene>
         <!--視訊-->
         <scene sceneID="TVP-JI-vLc">

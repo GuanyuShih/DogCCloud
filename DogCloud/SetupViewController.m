@@ -45,7 +45,7 @@
     
     // Create the actions.
     UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:cancelButtonTitle style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
-        NSLog(@"The \"Okay/Cancel\" alert's cancel action occured.");
+        //    NSLog(@"The \"Okay/Cancel\" alert's cancel action occured.");
     }];
     
     UIAlertAction *otherAction = [UIAlertAction actionWithTitle:otherButtonTitle style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
